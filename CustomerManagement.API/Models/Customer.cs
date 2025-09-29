@@ -1,11 +1,19 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace CustomerManagementAPI.Models
 {
     public class Customer
     {
-        public int Id { get; set; }           // Primary Key
-        public string Name { get; set; }      // Customer Name
-        public string Email { get; set; }     // Customer Email
-        public string Phone { get; set; }     // Customer Phone
-        public string Address { get; set; }   // Customer Address
+        public int Id { get; set; }
+
+        [Required]
+        [MaxLength(100)] 
+        public string Name { get; set; }
+
+        [MaxLength(200)]
+        public string Email { get; set; }
+
+        [MaxLength(15)]
+        public string Phone { get; set; }
     }
 }
