@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ebDkLbMB/LE=",
+  "success": true,
+  "projectFilePath": "G:\\Customer Management\\Customer-Management-\\CustomerManagement.API\\CustomerManagement.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.aspnetcore.openapi\\9.0.8\\microsoft.aspnetcore.openapi.9.0.8.nupkg.sha512",
+    "C:\\Users\\hp\\.nuget\\packages\\microsoft.openapi\\1.6.17\\microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
